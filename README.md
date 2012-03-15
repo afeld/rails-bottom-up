@@ -1,20 +1,21 @@
 # Rails from the Bottom Up
 
-This is a tutorial to Rails that goes through each level of the stack to demonstrate how they operate.  To start, get a Ruby environment [set up](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2#sec:rubygems), and run the following in your terminal:
+This is a tutorial to Rails that goes through each level of the Rails stack to demonstrate how they operate.  To start, get a Ruby environment [set up](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2#sec:rubygems), and run the following in your terminal:
 
     $ git clone https://github.com/afeld/rails-bottom-up.git
     $ cd rails-bottom-up
     $ gem install bundler
     $ bundle install
 
-No, on with the demonstration.
+Now, on with the demonstration.
 
 ## Step 1 - Rack
 
-### [view code](https://github.com/afeld/rails-bottom-up/compare/base...rack)
+### [view code](https://github.com/afeld/rails-bottom-up/compare/base...rack#diff-0)
 
 Start the server with
 
+    $ git checkout rack
     $ rails server
     => Booting WEBrick
     => Rails 3.2.2 application starting in development on http://0.0.0.0:3000
@@ -28,4 +29,26 @@ Once you see that last line come up, open [http://localhost:3000](http://localho
 
 ## Step 2 - The Router
 
-### [view code](https://github.com/afeld/rails-bottom-up/compare/base...router)
+### [view code](https://github.com/afeld/rails-bottom-up/compare/base...router#diff-0)
+
+Press `CTL-C` on your keyboard to stop the server, then run the following:
+
+    $ git checkout router
+    $ rails server
+    ...
+
+## Step 3 - The Controller
+
+### [view code](https://github.com/afeld/rails-bottom-up/compare/base...controller#diff-0)
+
+    $ git checkout controller
+    $ rails server  # if not already running
+    ...
+
+## Step 4 - The View
+
+### [view code](https://github.com/afeld/rails-bottom-up/compare/base...view#diff-0)
+
+    $ git checkout view
+    $ rails server
+    ...
