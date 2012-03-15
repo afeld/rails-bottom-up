@@ -1,4 +1,10 @@
 # This file is used by Rack-based servers to start the application.
 
-require ::File.expand_path('../config/environment',  __FILE__)
-run RailsBottomUp::Application
+# see http://devcenter.heroku.com/articles/rack#pure_rack_apps
+run lambda { |env|
+  [
+    200,                            # status code
+    {'Content-Type'=>'text/plain'}, # environment
+    ["Hello World!"]                # body
+  ]
+}
