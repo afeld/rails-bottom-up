@@ -57,4 +57,4 @@ and refresh the page.
     $ rails server
     ...
 
-and refresh one more time.
+Now browse to [http://localhost:3000/hello.txt](http://localhost:3000/hello.txt)
