@@ -4,7 +4,7 @@
 run lambda { |env|
   [
     200,              # status code
-    {},               # header
+    {},               # headers
     ["Hello World!"]  # body
   ]
 }
