@@ -3,8 +3,8 @@
 # the simplest of Rack apps
 run lambda { |env|
   [
-    200,              # status code
-    {},               # headers
-    ["Hello World!"]  # body
+    200,               # status code
+    {},                # headers
+    ["Hello Rack!"]  # body
   ]
 }
