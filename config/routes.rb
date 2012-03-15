@@ -57,6 +57,6 @@ RailsBottomUp::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   # just a Rack app!
-  match '/hello' => lambda { |env| [200, {}, ["Hello World!"]] }
+  match '/hello' => lambda { |env| [200, {}, ["Hello Router!"]] }
 
 end
