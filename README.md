@@ -1,6 +1,6 @@
 # Rails from the Bottom Up
 
-This is a tutorial to Rails that goes through each level of the Rails stack to demonstrate how they operate.  To start, get a Ruby environment [set up](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2#sec:rubygems), and run the following in your terminal:
+This is a tutorial to build a "Hello World!" Rails app, by taking you through each level of the Rails stack to demonstrate how they operate.  To start, get a Ruby environment [set up](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book?version=3.2#sec:rubygems), and run the following in your terminal:
 
     $ git clone https://github.com/afeld/rails-bottom-up.git
     $ cd rails-bottom-up
@@ -37,6 +37,8 @@ Press `CTL-C` on your keyboard to stop the server, then run the following:
     $ rails server
     ...
 
+then open [http://localhost:3000/hello](http://localhost:3000/hello)
+
 ## Step 3 - The Controller
 
 ### [view code](https://github.com/afeld/rails-bottom-up/compare/base...controller#diff-0)
@@ -45,6 +47,8 @@ Press `CTL-C` on your keyboard to stop the server, then run the following:
     $ rails server  # if not already running
     ...
 
+and refresh the page.
+
 ## Step 4 - The View
 
 ### [view code](https://github.com/afeld/rails-bottom-up/compare/base...view#diff-0)
@@ -52,3 +56,5 @@ Press `CTL-C` on your keyboard to stop the server, then run the following:
     $ git checkout view
     $ rails server
     ...
+
+and refresh one more time.
