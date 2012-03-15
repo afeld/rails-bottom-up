@@ -3,8 +3,8 @@
 # see http://devcenter.heroku.com/articles/rack#pure_rack_apps
 run lambda { |env|
   [
-    200,                            # status code
-    {'Content-Type'=>'text/plain'}, # environment
-    ["Hello World!"]                # body
+    200,              # status code
+    {},               # header
+    ["Hello World!"]  # body
   ]
 }
