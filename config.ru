@@ -1,6 +1,6 @@
 # This file is used by Rack-based servers to start the application.
 
-# see http://devcenter.heroku.com/articles/rack#pure_rack_apps
+# the simplest of Rack apps
 run lambda { |env|
   [
     200,              # status code
