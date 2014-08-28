@@ -58,3 +58,7 @@ and refresh the page.
     ...
 
 Now browse to [http://localhost:3000/hello.txt](http://localhost:3000/hello.txt)
+
+## See Also
+
+* http://blog.siami.fr/diving-in-rails-the-request-handling
